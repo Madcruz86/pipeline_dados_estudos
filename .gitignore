@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+env
+find . -type d -name "__pycache__" -exec git rm -r --cached {} +
+
+data_processed/dados_combinados.csv
+notebooks/exploracao.ipynb
