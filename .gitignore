@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 env
 find . -type d -name "__pycache__" -exec git rm -r --cached {} +
+notebooks/*
+!notebooks/.gitkeep
 
 data_processed/dados_combinados.csv
-notebooks/exploracao.ipynb
